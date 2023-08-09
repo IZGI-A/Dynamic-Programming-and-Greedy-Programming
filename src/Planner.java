@@ -61,10 +61,6 @@ public class Planner {
         }
         return planDynamic;
     }
-
-    /**
-     * {@link #planDynamic} must be filled after calling this method
-     */
     public void solveDynamic(int i) {
         // This method is implemented by using below logic
         // FIND-SOLUTION( j )
@@ -89,9 +85,6 @@ public class Planner {
 
     }
 
-    /**
-     * {@link #maxWeight} must be filled after calling this method
-     */
     /* This function calculates maximum weights and prints out whether it has been called before or not  */
     public Double calculateMaxWeight(int i) {
         // base case
